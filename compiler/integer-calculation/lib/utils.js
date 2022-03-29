@@ -10,4 +10,7 @@ const watcher = (val, cb) => {
   return update;
 };
 
+const undoFunc = (val = null)=>val
+
 exports.watcher = watcher;
+exports.undoFunc = undoFunc;
